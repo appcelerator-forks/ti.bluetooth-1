@@ -1,6 +1,28 @@
-Android Titanum BLE Module
+# Android Titanum BLE Module
 
-iOS version: https://github.com/hansemannn/ti.bluetooth
+
+## iOS version
+For an iOS version have a look at 
+Hans Knoechel ([@hansemannnn](https://twitter.com/hansemannnn) / [Web](http://hans-knoechel.de)) repository at https://github.com/hansemannn/ti.bluetooth
+
+## Methods
+* initialize()
+* isScannig()
+* getState()
+* startScan()
+* stopScan()
+
+## Events
+* didDiscoverPeripheral
+* didUpdateState
+
+## TODO
+* Method: scanForPeripheralsWithServices()
+* Event: didDiscoverServices
+* Event: didDiscoverCharacteristicsForService
+* Event: didUpdateValueForCharacteristic
+
+## Example
 
 ```javascript
 var BLE = require('ti.bluetooth');
