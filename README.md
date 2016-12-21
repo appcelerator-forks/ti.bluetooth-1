@@ -1,5 +1,6 @@
 # Android Titanum BLE Module
 
+Work in progress
 
 ## iOS version
 For an iOS version have a look at 
